@@ -4,7 +4,10 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://alicearchived.github.io/english/",
+  hostname: "https://alicearchived.github.io",
+
+  // iconAssets: "iconfont",
+  head: [["link", { rel: "icon", href: "/english/favicon.ico" }]],
 
   author: {
     name: "Alice",
@@ -129,6 +132,7 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
+    toc: true,
 
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
