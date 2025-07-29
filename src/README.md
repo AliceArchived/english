@@ -7,9 +7,9 @@ title: Home
 
 # heroImage: logo.svg
 
-heroText: The name of your blog
-tagline: You can put your slogan here
-heroFullScreen: true
+# heroText: English Study Records
+# tagline: You can put your slogan here
+heroFullScreen: false
 projects:
 
 - icon: folder-open

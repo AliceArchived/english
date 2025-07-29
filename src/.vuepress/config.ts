@@ -6,8 +6,8 @@ export default defineUserConfig({
   base: "/english/",
 
   lang: "en-US",
-  title: "Alice's Template",
-  description: "A blog demo for vuepress-theme-hope",
+  title: "English Study Record",
+  description: "Study Record of English",
 
   theme,
 
