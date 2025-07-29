@@ -10,5 +10,12 @@ export default sidebar({
       link: "nce/",
       children: "structure",
     },
+    {
+      text: "Duolingo",
+      icon: "mdi:bookshelf",
+      prefix: "duolingo/",
+      link: "duolingo/",
+      children: "structure",
+    },
   ],
 });
