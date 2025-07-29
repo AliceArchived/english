@@ -1,4 +1,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://alicearchived.github.io/english/english/sitemap.xml
+Sitemap: https://alicearchived.github.io/english/sitemap.xml
