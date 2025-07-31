@@ -16,3 +16,9 @@ projects:
   name: Duolingo English
   desc: English Study Records
   link: https://alicearchived.github.io/duolingo/
+
+
+- icon: folder-open
+  name: Duolingo French
+  desc: French Study Records
+  link: https://alicearchived.github.io/french-old/

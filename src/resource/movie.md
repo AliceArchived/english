@@ -1,12 +1,24 @@
+---
+icon: noto:page-facing-up
+date: 2025-07-20
+category:
+  - Resource
+tag:
+  - English
+  - Movie
+star: false
+toc: true
+---
+
 - Eyes wide shut
   - 大开眼界
   - "Kubrick's final, haunting masterpiece. Vivid, brilliant, unforgettable." - Time. Box-office superstar, Oscar-nom...
 - 老世老妈的浪漫史
   - "How I Met Your Mother"
 - "Modern Family"
-- "The Ellen Show," 
-  - "Conan," 
-  - "James Corden," 
+- "The Ellen Show,"
+  - "Conan,"
+  - "James Corden,"
   - "The Graham Norton Show"
 - 实习医生风云
   - Scrubs.

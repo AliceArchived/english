@@ -11,6 +11,13 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "Listening",
+      icon: "mdi:bookshelf",
+      prefix: "listening/",
+      link: "listening/",
+      children: "structure",
+    },
+    {
       text: "Duolingo",
       icon: "mdi:bookshelf",
       prefix: "duolingo/",
