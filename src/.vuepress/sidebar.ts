@@ -24,5 +24,19 @@ export default sidebar({
       link: "duolingo/",
       children: "structure",
     },
+    {
+      text: "Reading",
+      icon: "mdi:bookshelf",
+      prefix: "reading/",
+      link: "reading/",
+      children: "structure",
+    },
+    {
+      text: "Writing",
+      icon: "mdi:bookshelf",
+      prefix: "writing/",
+      link: "writing/",
+      children: "structure",
+    },
   ],
 });

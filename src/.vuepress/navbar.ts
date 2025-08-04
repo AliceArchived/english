@@ -1,3 +1,10 @@
 import { navbar } from "vuepress-theme-hope";
 
-export default navbar(["/", "/nce/", "/duolingo/", "/listening/"]);
+export default navbar([
+  "/",
+  "/nce/",
+  "/duolingo/",
+  "/listening/",
+  "/reading/",
+  "/writing/",
+]);
