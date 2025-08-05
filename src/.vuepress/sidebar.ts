@@ -11,6 +11,13 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "Duolingo",
+      icon: "mdi:bookshelf",
+      prefix: "duolingo/",
+      link: "duolingo/",
+      children: "structure",
+    },
+    {
       text: "Listening",
       icon: "mdi:bookshelf",
       prefix: "listening/",
@@ -18,10 +25,10 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "Duolingo",
+      text: "Speaking",
       icon: "mdi:bookshelf",
-      prefix: "duolingo/",
-      link: "duolingo/",
+      prefix: "speaking/",
+      link: "speaking/",
       children: "structure",
     },
     {

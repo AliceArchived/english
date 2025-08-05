@@ -5,6 +5,7 @@ export default navbar([
   "/nce/",
   "/duolingo/",
   "/listening/",
+  "/speaking/",
   "/reading/",
   "/writing/",
 ]);
