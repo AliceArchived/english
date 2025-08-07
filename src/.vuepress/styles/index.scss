@@ -2,3 +2,18 @@
 .vp-blog-mask {
   background: url(/assets/images/base/base01.jpg) center center / cover no-repeat !important;
 }
+
+.playable-sentence {
+  cursor: pointer;
+  color: #1e90ff;
+  transition: background-color 0.2s, color 0.2s;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+.playable-sentence:hover {
+  color: #ff6600;
+}
+.playing {
+  background-color: #ffe08a;
+  color: #000;
+}

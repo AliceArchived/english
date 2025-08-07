@@ -1,0 +1,54 @@
+import { defineClientConfig } from "vuepress/client"
+
+export default defineClientConfig({
+  enhance({ router }) {
+    router.afterEach(() => {
+      setTimeout(() => {
+        console.log("✅ client.ts 插件已加载")
+
+        const audio = document.getElementById('global-audio') as HTMLAudioElement
+        if (!audio) return
+
+        const spans = document.querySelectorAll('.playable-sentence')
+
+        // 清除旧事件绑定（避免多次添加）
+        spans.forEach(span => {
+          const el = span as HTMLSpanElement
+          el.style.cursor = 'pointer'
+
+          el.onclick = () => {
+            const start = parseFloat(el.dataset.start || '0')
+            const end = parseFloat(el.dataset.end || '0')
+
+            audio.pause()
+            clearInterval(window._clipInterval)
+
+            // 取消所有高亮
+            spans.forEach(s => s.classList.remove('playing'))
+
+            // 设置当前播放的句子为高亮
+            el.classList.add('playing')
+
+            audio.currentTime = start
+
+            const onCanPlay = () => {
+              audio.play()
+
+              window._clipInterval = setInterval(() => {
+                if (audio.currentTime >= end) {
+                  audio.pause()
+                  clearInterval(window._clipInterval)
+                  el.classList.remove('playing') // 播放完移除高亮
+                }
+              }, 100)
+
+              audio.removeEventListener('canplay', onCanPlay)
+            }
+
+            audio.addEventListener('canplay', onCanPlay)
+          }
+        })
+      }, 300)
+    })
+  }
+})
