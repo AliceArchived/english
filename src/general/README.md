@@ -1,7 +1,7 @@
 ---
-title: 小王子
+title: General
 index: false
-icon: twemoji:green-book
+icon: mdi:bookshelf
 category:
   - Guide
 ---

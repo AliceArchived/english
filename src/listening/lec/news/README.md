@@ -1,7 +1,7 @@
 ---
-title: 小王子
+title: 读懂英语新闻
 index: false
-icon: twemoji:green-book
+icon: flat-color-icons:list
 category:
   - Guide
 ---

@@ -4,6 +4,13 @@ export default sidebar({
   "/": [
     "",
     {
+      text: "General",
+      icon: "mdi:bookshelf",
+      prefix: "general/",
+      link: "general/",
+      children: "structure",
+    },
+    {
       text: "NCE",
       icon: "mdi:bookshelf",
       prefix: "nce/",
