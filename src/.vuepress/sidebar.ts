@@ -4,10 +4,10 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "General",
+      text: "IELTS",
       icon: "mdi:bookshelf",
-      prefix: "general/",
-      link: "general/",
+      prefix: "ielts/",
+      link: "ielts/",
       children: "structure",
     },
     {
@@ -22,6 +22,13 @@ export default sidebar({
       icon: "mdi:bookshelf",
       prefix: "duolingo/",
       link: "duolingo/",
+      children: "structure",
+    },
+    {
+      text: "Life",
+      icon: "mdi:bookshelf",
+      prefix: "life/",
+      link: "life/",
       children: "structure",
     },
     {

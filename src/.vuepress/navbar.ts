@@ -3,10 +3,11 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   "/nce/",
-  "/life/",
+  // "/life/",
   "/duolingo/",
-  "/listening/",
-  "/speaking/",
-  "/reading/",
-  "/writing/",
+  "/ielts/",
+  // "/listening/",
+  // "/speaking/",
+  // "/reading/",
+  // "/writing/",
 ]);
